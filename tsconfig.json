@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "module": "commonjs",
     "esModuleInterop": true,
     "target": "es6",
@@ -7,14 +8,9 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "baseUrl": ".",
     "paths": {
-      "*": [
-        "node_modules/*"
-    ]
+      "*": ["node_modules/*"]
     }
   },
-  "include": [
-    "*"
-  ]
+  "include": ["*"]
 }

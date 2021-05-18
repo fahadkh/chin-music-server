@@ -25,7 +25,6 @@ module.exports = {
     // e.g. "@typescript-eslint/explicit-function-return-type": "off",
     "sort-keys": "off",
     "no-console": "off",
-    "@typescript-eslint/no-unused-vars": "warn",
     "typescript-sort-keys/interface": "error",
     "typescript-sort-keys/string-enum": "error",
     "jest/no-focused-tests": "error",
@@ -52,6 +51,5 @@ module.exports = {
     "sort-imports": "off",
     "import/order": "off",
   },
-  settings: {
-  },
+  settings: {},
 };
